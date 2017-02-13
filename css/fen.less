@@ -1,0 +1,192 @@
+/* reset */
+html{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    font-family: "Microsoft YaHei";
+    background:#e7e8ef;
+}
+
+body, ul, li, p, h2{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    -webkit-tap-highlight-color:transparent;
+}
+img{
+    border:none;
+    vertical-align:none;
+}
+
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+
+
+@rem:40rem;
+.search{
+    width:100%;
+    height:135/@rem;
+    background:#f6f6f9;
+    position:absolute;
+    top:0;
+    border-bottom:1px solid #000;
+    a{
+        display:inline-block;
+        width:500/@rem;
+        height:86/@rem;
+        line-height:86/@rem;
+        border-radius:10/@rem;
+        position:absolute;
+        top:24/@rem; left:24/@rem;
+        font-size:26/@rem;
+        color:#999;
+        padding-left:92/@rem;
+        background:#fff url(../img/fenlei/01.png) no-repeat 24/@rem center;
+        background-size:36/@rem 38/@rem;
+    }
+}
+
+.div_0{
+    width:100%;
+    height:900/@rem;
+    position:absolute;
+    top:136/@rem;
+    .list_3{
+        width:206/@rem;
+        height:100%;
+        background:#f6f6f9;
+        li{
+            width:100%;
+            height:98/@rem;
+            line-height:98/@rem;
+            text-align:center;
+            font-size:26/@rem;
+            color:#333;
+            .div_1{
+                display:none;
+                position:absolute;
+                top:0; right:0;
+                width:434/@rem;
+                height:520/@rem;
+                box-sizing:border-box;
+                padding-left:32/@rem;
+                background:#fff;
+                h2{
+                    height:92/@rem;
+                    line-height:92/@rem;
+                    width:100%;
+                    text-align:left;
+                    font-weight:normal;
+                    font-size:26/@rem;
+                    color:#333;
+                }
+                li{
+                   float:left;
+                   width:134/@rem;
+                   height:206/@rem; 
+                   box-sizing:border-box;
+                   padding-right:32/@rem;
+                   position:relative;
+                   a{
+                       display:inline-block;
+                       width:100%;
+                       height:100%;
+                   }
+                   img{
+                       width:102/@rem;
+                       height:102/@rem;
+                   }
+                   p{
+                       height:100/@rem;
+                       line-height:100/@rem;
+                       color:#333;
+                       font-size:26/@rem;
+                       position:absolute;
+                       bottom:0;
+                   }
+                }
+            }
+        }
+        .active{
+            box-sizing:border-box;
+            border-left:4/@rem solid #fe3939;
+            color:#fe3939;
+            background:#fff;
+        }
+    }
+}
+.nav_03{
+        width:100%;
+        height:100/@rem;
+        position:absolute;
+        bottom:0;
+        z-index:3;
+        ul{
+            width:100%;
+            height:100%;
+            background:#f9f8f7;
+        }
+        li{
+            float:left;
+            width:20%;
+            height:100/@rem;
+            
+            &:nth-of-type(1){
+                background:url(../img/nav/nav-06-1.png) no-repeat center 16/@rem;
+                background-size:28/@rem 28/@rem;
+            }
+            &:nth-of-type(2){
+                background:url(../img/nav/nav-07-1.png) no-repeat center 16/@rem;
+                background-size:27/@rem 27/@rem;
+                span{
+                    color:#fe3939;
+                } 
+            }
+            &:nth-of-type(3){
+                background:url(../img/nav/nav-08.png) no-repeat center 16/@rem;
+                background-size:27/@rem 25/@rem;
+            }
+            &:nth-of-type(4){
+                background:url(../img/nav/nav-09.png) no-repeat center 16/@rem;
+                background-size:28/@rem 25/@rem;
+            }
+            &:nth-of-type(5){
+                background:url(../img/nav/nav-10.png) no-repeat center 16/@rem;
+                 background-size:25/@rem 27/@rem;
+            }
+        }
+        a{
+            display:inline-block;
+            color:#555;
+            width:100%;
+            height:100%;
+            position:relative;
+            
+        }
+        
+        span{
+            display:inline-block;
+            width:100%;
+            height:46/@rem;
+            line-height:46/@rem;
+            font-size:24/@rem;
+            position:absolute;
+            bottom:0;
+            text-align:center;
+        }
+    }

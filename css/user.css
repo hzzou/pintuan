@@ -1,0 +1,129 @@
+/* reset */
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "微软雅黑";
+}
+body,
+form,
+input,
+ul,
+li,
+header,
+p {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input {
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  font-family: "微软雅黑";
+}
+a {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.head_03 {
+  width: 100%;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  background: #fe3939;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 0.9rem;
+}
+.head_03 .back {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 1.75rem;
+  height: 100%;
+  background: url(../img/nav/nav-11.png) no-repeat center center;
+  background-size: 0.55rem 1rem;
+}
+.head_03 em {
+  font-style: normal;
+}
+.head_03 a {
+  display: inline-block;
+  width: 1.75rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: url(../img/nav/nav-06-2.png) no-repeat center center;
+  background-size: 1rem 1rem;
+}
+#form_01 {
+  width: 14.4rem;
+  height: 11rem;
+  margin: 0.9rem auto;
+}
+#form_01 .text,
+#form_01 .pass {
+  height: 3rem;
+  width: 100%;
+  border-bottom: 1px solid #999;
+  font-size: 0.9rem;
+}
+#form_01 p {
+  font-size: 0.6rem;
+  height: 2.9rem;
+  line-height: 2.9rem;
+  position: relative;
+  text-indent: 2em;
+}
+#form_01 p span {
+  position: absolute;
+  top: 0.875rem;
+  left: 0;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+#form_01 p .active {
+  background: url(../img/act_01.png) no-repeat;
+  background-size: 1.05rem 1.05rem;
+  border: none;
+}
+#form_01 .btn {
+  width: 100%;
+  height: 2.1rem;
+  background: #fe3939;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.list_5 {
+  width: 14.4rem;
+  margin: 0 auto;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.65rem;
+}
+.list_5 li {
+  float: left;
+  width: 7.2rem;
+  height: 100%;
+  text-align: center;
+}
+.list_5 li a {
+  display: inline-block;
+  color: #333;
+}

@@ -1,0 +1,98 @@
+/* reset */
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "微软雅黑";
+}
+body,
+form,
+input,
+footer {
+  margin: 0;
+  padding: 0;
+}
+input {
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  font-family: "微软雅黑";
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.head_01 {
+  width: 100%;
+  height: 3.35rem;
+  background: #f6f6f9;
+  position: absolute;
+  top: 0;
+}
+.head_01 .btn_3 {
+  width: 2.1rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/xiangqing/01-1.png) no-repeat center center;
+  background-size: 0.5rem 0.8rem;
+}
+.head_01 form {
+  position: absolute;
+  top: 0.6rem;
+  left: 2.1rem;
+  width: 13.3rem;
+  height: 2.15rem;
+  background: #fff;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.head_01 form .text {
+  float: left;
+  width: 9.7rem;
+  height: 100%;
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+.head_01 form .btn_4 {
+  float: left;
+  width: 3.6rem;
+  height: 100%;
+  background: #fe3939;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.head_01 form .clear_01 {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #ddd;
+  position: absolute;
+  left: 8.75rem;
+  top: 0.625rem;
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+.foot_01 {
+  width: 100%;
+  height: 3.35rem;
+  line-height: 3.35rem;
+  text-align: center;
+  background: #f6f6f9;
+  position: absolute;
+  bottom: 0;
+  color: #777;
+  font-size: 0.8rem;
+}

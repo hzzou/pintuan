@@ -1,0 +1,187 @@
+/* reset */
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "Microsoft YaHei";
+  background: #e7e8ef;
+}
+body,
+ul,
+li,
+p,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+img {
+  border: none;
+  vertical-align: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.search {
+  width: 100%;
+  height: 3.375rem;
+  background: #f6f6f9;
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid #000;
+}
+.search a {
+  display: inline-block;
+  width: 12.5rem;
+  height: 2.15rem;
+  line-height: 2.15rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  font-size: 0.65rem;
+  color: #999;
+  padding-left: 2.3rem;
+  background: #ffffff url(../img/fenlei/01.png) no-repeat 0.6rem center;
+  background-size: 0.9rem 0.95rem;
+}
+.div_0 {
+  width: 100%;
+  height: 22.5rem;
+  position: absolute;
+  top: 3.4rem;
+}
+.div_0 .list_3 {
+  width: 5.15rem;
+  height: 100%;
+  background: #f6f6f9;
+}
+.div_0 .list_3 li {
+  width: 100%;
+  height: 2.45rem;
+  line-height: 2.45rem;
+  text-align: center;
+  font-size: 0.65rem;
+  color: #333;
+}
+.div_0 .list_3 li .div_1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10.85rem;
+  height: 13rem;
+  box-sizing: border-box;
+  padding-left: 0.8rem;
+  background: #fff;
+}
+.div_0 .list_3 li .div_1 h2 {
+  height: 2.3rem;
+  line-height: 2.3rem;
+  width: 100%;
+  text-align: left;
+  font-weight: normal;
+  font-size: 0.65rem;
+  color: #333;
+}
+.div_0 .list_3 li .div_1 li {
+  float: left;
+  width: 3.35rem;
+  height: 5.15rem;
+  box-sizing: border-box;
+  padding-right: 0.8rem;
+  position: relative;
+}
+.div_0 .list_3 li .div_1 li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.div_0 .list_3 li .div_1 li img {
+  width: 2.55rem;
+  height: 2.55rem;
+}
+.div_0 .list_3 li .div_1 li p {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #333;
+  font-size: 0.65rem;
+  position: absolute;
+  bottom: 0;
+}
+.div_0 .list_3 .active {
+  box-sizing: border-box;
+  border-left: 0.1rem solid #fe3939;
+  color: #fe3939;
+  background: #fff;
+}
+.nav_03 {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+.nav_03 ul {
+  width: 100%;
+  height: 100%;
+  background: #f9f8f7;
+}
+.nav_03 li {
+  float: left;
+  width: 20%;
+  height: 2.5rem;
+}
+.nav_03 li:nth-of-type(1) {
+  background: url(../img/nav/nav-06-1.png) no-repeat center 0.4rem;
+  background-size: 0.7rem 0.7rem;
+}
+.nav_03 li:nth-of-type(2) {
+  background: url(../img/nav/nav-07-1.png) no-repeat center 0.4rem;
+  background-size: 0.675rem 0.675rem;
+}
+.nav_03 li:nth-of-type(2) span {
+  color: #fe3939;
+}
+.nav_03 li:nth-of-type(3) {
+  background: url(../img/nav/nav-08.png) no-repeat center 0.4rem;
+  background-size: 0.675rem 0.625rem;
+}
+.nav_03 li:nth-of-type(4) {
+  background: url(../img/nav/nav-09.png) no-repeat center 0.4rem;
+  background-size: 0.7rem 0.625rem;
+}
+.nav_03 li:nth-of-type(5) {
+  background: url(../img/nav/nav-10.png) no-repeat center 0.4rem;
+  background-size: 0.625rem 0.675rem;
+}
+.nav_03 a {
+  display: inline-block;
+  color: #555;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.nav_03 span {
+  display: inline-block;
+  width: 100%;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}

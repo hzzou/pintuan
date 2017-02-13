@@ -1,0 +1,198 @@
+/* reset */
+html{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    font-family: "微软雅黑";
+}
+
+body, header, ul,
+ol, p{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    -webkit-tap-highlight-color:transparent;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+
+
+@rem:40rem;
+
+.head_02{
+    width:100%;
+    height:110/@rem;
+    position:absolute;
+    top:0;
+    background:#fff;
+    border-bottom:1px solid #999;
+    z-index:3;
+    a{
+        float:left;
+        display:inline-block;
+        width:212/@rem;
+        height:100%;
+        line-height:110/@rem;
+        color:#666;
+        font-size:26/@rem;
+        border-right:1px solid #999;
+        text-align:center;
+        &:last-of-type{
+            border-right:none;
+        }
+    }
+    .active{
+        background:#fe3939;
+        color:#fff;
+    }
+    
+}
+
+.list_04{
+    width:100%;
+    margin-top:110/@rem;
+    margin-bottom:90/@rem;
+    .li_02{
+        width:100%;
+        height:244/@rem;
+        border-bottom:1px solid #666;
+        a{
+            display:inline-block;
+            width:100%;
+            height:100%;
+            position:relative;
+            img{
+                width:148/@rem;
+                height:148/@rem;
+                position:absolute;
+                top:36/@rem; left:30/@rem;
+            }
+            div{
+                position:absolute;
+                top:42/@rem; left:206/@rem;
+                width:406/@rem;
+                p{
+                    font-size:26/@rem;
+                    line-height:50/@rem;
+                    color:#333;
+                    overflow:hidden;
+                    white-space:nowrap;
+                    text-overflow:ellipsis;
+                }
+                em{
+                    display:block;
+                    font-style:normal;
+                    font-size:24/@rem;
+                    color:#999;
+                }
+                span{
+                    position:absolute;
+                    top:114/@rem;
+                    color:#fe3939;
+                    font-size:36/@rem;
+                }
+                ol{
+                    position:absolute;
+                    top:110/@rem; right:0;
+                    width:204/@rem;
+                    height:64/@rem;
+                    li{
+                        float:left;
+                        font-size:26/@rem;
+                        width:100/@rem;
+                        height:62/@rem;
+                        line-height:62/@rem;
+                        text-align:center;
+                        border:1px solid #fe3939;
+                        &:nth-of-type(1){
+                            color:#fe3939;
+                            border-radius:10/@rem 0 0 10/@rem;
+                        }
+                        &:nth-of-type(2){
+                            color:#fff;
+                            background:#fe3939;
+                            border-radius:0 10/@rem 10/@rem 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav_03{
+    width:100%;
+    height:100/@rem;
+    position:absolute;
+    bottom:0;
+    z-index:3;
+    ul{
+        width:100%;
+        height:100%;
+        background:#f9f8f7;
+    }
+    li{
+        float:left;
+        width:20%;
+        height:100/@rem;
+            
+        &:nth-of-type(1){
+            background:url(../img/nav/nav-06-1.png) no-repeat center 16/@rem;
+            background-size:27/@rem 28/@rem;
+        }
+        &:nth-of-type(2){
+            background:url(../img/nav/nav-07.png) no-repeat center 16/@rem;
+            background-size:27/@rem 27/@rem;
+                
+        }
+        &:nth-of-type(3){
+            background:url(../img/nav/nav-08-1.png) no-repeat center 16/@rem;
+            background-size:27/@rem 25/@rem;
+            span{
+                color:#fe3939;
+            }
+        }
+        &:nth-of-type(4){
+            background:url(../img/nav/nav-09.png) no-repeat center 16/@rem;
+            background-size:28/@rem 24/@rem;
+        }
+        &:nth-of-type(5){
+            background:url(../img/nav/nav-10.png) no-repeat center 16/@rem;
+            background-size:25/@rem 27/@rem;
+        }
+    }
+   a{
+        display:inline-block;
+        color:#555;
+        width:100%;
+        height:100%;
+        position:relative;
+            
+    }
+        
+    span{
+        display:inline-block;
+        width:100%;
+        height:46/@rem;
+        line-height:46/@rem;
+        font-size:24/@rem;
+        position:absolute;
+        bottom:0;
+        text-align:center;
+    }
+}

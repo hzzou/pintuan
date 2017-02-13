@@ -1,0 +1,698 @@
+/* reset */
+html{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    font-family: "Microsoft YaHei";
+    
+}
+
+body, ul, li, section, header,
+p, h2, dl, dt, dd{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    -webkit-tap-highlight-color:transparent;
+}
+img{
+    border:none;
+    vertical-align:top;
+}
+
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+/* main */
+@rem:40rem;
+.head_box{
+    height:92/@rem;
+    width:100%;
+    position:relative;
+    z-index:3;
+    .btn_1{
+        float:left;
+        width:106/@rem;
+        height:100%;
+        background:url(../img/xiangqing/01.png) no-repeat;
+        background-size:106/@rem 92/@rem;
+        
+    }
+    .list{
+        float:left;
+        width:358/@rem;
+        height:100%;
+        line-height:92/@rem;
+        margin-left:70/@rem;
+        li{
+           float:left;
+           width:100/@rem;
+           height:100%; 
+           text-align:center;
+        }
+        .active{
+            box-sizing:border-box;
+            border-bottom:1px solid #fe3939;
+            a{
+                color:#fe3939;
+            }
+        }
+        a{
+           color:#666;
+           font-size:28/@rem;
+        }
+    } 
+    .btn_2{
+        float:right;
+        width:106/@rem;
+        height:100%;
+        background:url(../img/xiangqing/02.png) no-repeat;
+        background-size:106/@rem 92/@rem;
+        
+    }
+    .list_1{
+        display:none;
+        position:absolute;
+        right:20/@rem; top:118/@rem;
+        width:284/@rem;
+        height:370/@rem;
+        background:#313131;
+        border-radius:8/@rem;
+        span{
+            position:absolute;
+            top:-28/@rem; right:16/@rem;
+            width:0;
+            height:0;
+            border-color:transparent transparent #313131 transparent;
+            border-style:solid;
+            border-width:14/@rem; 
+        }
+        li{
+            width:100%;
+            height:25%;
+            box-sizing:border-box;
+            border-top:1px solid #4e4d4d;
+            padding-left:100/@rem;
+            &:first-of-type{
+                border-top:none;
+                background:url(../img/xiangqing/11.png) no-repeat  48/@rem center;
+                background-size:32/@rem 34/@rem;
+            }
+            &:nth-of-type(2){
+                background:url(../img/xiangqing/12.png) no-repeat  48/@rem center;
+                background-size:34/@rem 34/@rem;
+            }
+            &:nth-of-type(3){
+                background:url(../img/xiangqing/13.png) no-repeat  48/@rem center;
+                background-size:34/@rem 32/@rem;
+            }
+            &:nth-of-type(4){
+                background:url(../img/xiangqing/14.png) no-repeat  48/@rem center;
+                background-size:32/@rem 34/@rem;
+            }
+            
+        }
+        a{
+            display:block;
+            width:100%;
+            height:100%;
+            line-height:92/@rem;
+            color:#babab9;
+            font-size:24/@rem;
+            
+        }
+    }                                                                                                                      
+}
+
+.sec_01{
+    width:100%;
+    height:934/@rem;
+    overflow:hidden;
+    border-bottom:24/@rem solid #e7e8ef;
+    position:relative;
+    .list{
+        height:640/@rem;
+        width:300%;
+        position:absolute;
+        top:0;
+        li{
+            float:left;
+            height:640/@rem;
+        }
+        img{
+            height:640/@rem;
+            width:640/@rem;
+        }
+    }
+    .btn{
+        position:absolute;
+        top:580/@rem;
+        text-align:center;
+        width:100%;
+        a{
+            display:inline-block;
+            width:20/@rem;
+            height:20/@rem;
+            border-radius:50%;
+            background:#fff;
+        }
+        .active{
+            background:#fe3939;
+        }
+    }
+    .info{
+        height:106/@rem;
+        width:640/@rem;
+        padding-top:20/@rem;
+        position:absolute;
+        top:640/@rem;
+        p{
+            float:left;
+            width:450/@rem;
+            font-size:26/@rem;
+            line-height:38/@rem;
+            padding-left:30/@rem;
+        }
+        a{
+            float:right;
+            display:inline-block;
+            width:160/@rem;
+            box-sizing:border-box;
+            border-left:1px solid #ddd;
+            height:100%;
+            background:url(../img/xiangqing/03.png) no-repeat center 0;
+            background-size:64/@rem 56/@rem;
+            position:relative;
+            span{
+                display:inline-block;
+                width:100%;
+                color:#555;
+                font-size:24/@rem; 
+                position:absolute;
+                bottom:0;
+                text-align:center;
+            }
+        }
+    }
+    .price_01{
+        position:absolute;
+        width:100%;
+        box-sizing:border-box;
+        top:746/@rem;
+        display:block;
+        font-size:40/@rem;
+        color:#fe3939;
+        padding-left:30/@rem;
+        height:88/@rem;
+        line-height:88/@rem;
+        background:url(../img/xiangqing/04.png) no-repeat 200/@rem center;
+        background-size:88/@rem 32/@rem;
+        
+    }
+    .price_02{
+        position:absolute;
+        top:834/@rem;
+        display:block;
+        width:100%;
+        box-sizing:border-box;
+        height:60/@rem;
+        line-height:60/@rem;
+        font-size:28/@rem;
+        padding-left:30/@rem;
+        color:#999;
+        em{
+            font-style:normal;
+            text-decoration:line-through;
+        }
+    }
+}
+
+.sec_02{
+    width:100%;
+    height:106/@rem;
+    border-bottom:24/@rem solid #e7e8ef;
+    .list{
+        float:left;
+        width:552/@rem;
+        height:100%;
+        padding-left:10/@rem;
+        box-sizing:border-box;
+        
+    }
+    li{
+        float:left;
+        box-sizing:border-box;
+        font-size:24/@rem;
+        color:#999;
+        height:100%;
+        width:126/@rem;
+        line-height:106/@rem;
+        padding-left:28/@rem;
+        margin-left:20/@rem;
+        &:nth-of-type(1){
+            background:url(../img/xiangqing/05.png) no-repeat 0 38/@rem;
+            background-size:22/@rem 28/@rem;
+            
+        }
+        &:nth-of-type(2){
+            background:url(../img/xiangqing/06.png) no-repeat 0 44/@rem;
+            background-size:26/@rem 20/@rem;
+            
+        }
+        &:nth-of-type(3){
+            background:url(../img/xiangqing/07.png) no-repeat 0 40/@rem;
+            background-size:24/@rem 24/@rem;
+            
+        }
+    }
+    .detail{
+        float:right;
+        width:88/@rem;
+        height:100%;
+        background:url(../img/xiangqing/08.png) no-repeat;
+        background-size:88/@rem 106/@rem;
+        
+    }
+    .div_3{
+        display:none;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height:776/@rem;
+        background:#fff;
+        z-index:5;
+        h2{
+            padding-left:30/@rem;
+            box-sizing:border-box;
+            height:104/@rem;
+            line-height:104/@rem;
+            width:100%;
+            font-size:30/@rem;
+            font-weight:normal;
+            
+        }
+        .close{
+            float:right;
+            width:96/@rem;
+            height:104/@rem;
+            background:url(../img/xiangqing/09.png) no-repeat;
+            background-size:96/@rem 104/@rem;
+            
+        }
+        dl{
+            border-top:1px solid #ddd;
+            width:100%;
+            padding-left:30/@rem;
+            box-sizing:border-box;
+            &:nth-of-type(1) dt{
+                background:url(../img/xiangqing/05.png) no-repeat 0 center;
+                background-size:30/@rem 36/@rem;
+                 
+            }
+            &:nth-of-type(2) dt{
+                background:url(../img/xiangqing/06.png) no-repeat 0 center;
+                background-size:34/@rem 24/@rem; 
+                
+            }
+            &:nth-of-type(3) dt{
+                background:url(../img/xiangqing/07.png) no-repeat 0 center;
+                background-size:34/@rem 30/@rem; 
+                
+            }
+            dt{
+                font-size:28/@rem;
+                padding-left:46/@rem;
+                height:120/@rem;
+                line-height:120/@rem;
+                
+            }
+            dd{
+                font-size:24/@rem;
+                line-height:48/@rem;
+                padding-bottom:32/@rem;
+                color:#777;
+                
+            }
+        }
+    }
+}
+
+.sec_03{
+    width:100%;
+    height:358/@rem;
+    border-bottom:24/@rem solid #e7e8ef;
+    position:relative;
+    h2{
+        height:114/@rem;
+        line-height:114/@rem;
+        padding-left:30/@rem;
+        font-weight:normal;
+        font-size:30/@rem;
+        
+    }
+    .list{
+        width:100%;
+        box-sizing:border-box;
+        padding:28/@rem 54/@rem 0;
+        height:136/@rem;
+        margin-bottom:20/@rem;
+        li{
+            float:left;
+            width:25%;
+            height:100%;
+            text-align:center;
+            position:relative;
+            z-index:1;
+            &:first-of-type .xian{
+                left:50%;
+            }
+            &:last-of-type .xian{
+                right:50%;
+            }
+        }
+        .num{
+            display:inline-block;
+            position:relative;
+            width:42/@rem;
+            height:42/@rem;
+            line-height:42/@rem;
+            text-align:center;
+            font-size:24/@rem;
+            color:#000;
+            background:#fff;
+            border:1px dashed #888;
+            border-radius:50%;
+            z-index:3;
+            
+        }
+        .xian{
+            display:inline-block;
+            width:100%;
+            height:1px;
+            background:#888;
+            position:absolute;
+            top:30/@rem;
+            z-index:2;
+            
+        }
+        p{
+            margin-top:20/@rem;
+            color:#666;
+            font-size:24/@rem;
+        }
+    }
+    .detail{
+        display:inline-block;
+        width:100%;
+        height:88/@rem;
+        background:url(../img/xiangqing/10.png) no-repeat center center;
+        background-size:32/@rem  18/@rem;
+        
+    }
+    .info{
+        display:none;
+        position:absolute;
+        top:358/@rem;
+        background:#faf9f0;
+        font-size:24/@rem;
+        line-height:48/@rem;
+        padding-top:30/@rem;
+        padding-bottom:32/@rem;
+        color:#777;
+        border-top:1px solid #e7e8ef;
+        
+    }
+}
+
+.sec_04{
+    width:100%;
+    height:100/@rem;
+    line-height:100/@rem;
+    border-bottom:24/@rem solid #e7e8ef;
+    font-size:26/@rem;
+    color:#555;
+    .left{
+        float:left;
+        width:460/@rem;
+        box-sizing:border-box;
+        padding-left:30/@rem;
+        li{
+            float:left;
+            &:first-of-type{
+                padding-right:28/@rem;
+            }
+            span{
+                color:#fe3939;
+            }    
+        }
+        
+    }
+    .right{
+        float:right;
+        width:180/@rem;
+        color:#555;
+        background:url(../img/xiangqing/08.png) no-repeat 100/@rem center;
+        background-size:88/@rem 100/@rem;
+        span{
+            color:#fe3939;
+        }
+    }
+}
+
+.sec_05{
+    width:100%;
+    height:auto;
+    min-height:200/@rem;
+    margin-bottom:96/@rem;
+    ul{
+        height:112/@rem;
+        box-sizing:border-box;
+        border-bottom:1px solid #e7e8ef;
+        li{
+            float:left;
+            width:50%;
+            height:111/@rem;
+            line-height:111/@rem;
+            text-align:center;
+            font-size:26/@rem;
+            color:#555;
+        }
+        .active{
+            color:#fe3939;
+            background:#dfdfdf;
+        }
+    }
+    .detail{
+        width:100%;
+        height:auto;
+        img{
+            width:100%;
+        }
+    }
+    .parameter{
+        display:none;
+        width:100%;
+        height:auto;
+        font-size:24/@rem;
+        color:#555;
+    }
+}
+
+.nav{
+    width:100%;
+    height:96/@rem;
+    position:absolute;
+    bottom:0;
+    background:#fff;
+    z-index:4;
+    li{
+        float:left;
+    }
+    .gou{
+        width:148/@rem;
+        height:100%;
+        background:url(../img/nav/nav-09.png) no-repeat center 18/@rem;
+        background-size:50/@rem 40/@rem;
+        font-size:24/@rem;
+        position:relative;
+        a{
+            display:inline-block;
+            width:100%;
+            height:100%;
+            color:#666;
+                 
+        }
+        span{
+            position:absolute;
+            bottom:0; left:30%;
+                
+        }
+        .ge{
+            display:inline-block;
+            font-style:normal;
+            background:#fe3939;
+            color:#fff;
+            width:34/@rem;
+            height:34/@rem;
+            line-height:34/@rem;
+            border-radius:50%;
+            text-align:center;
+            position:absolute;
+            top:16/@rem; right:20/@rem;
+            
+        }
+    }
+    .dan, .tuan{
+        box-sizing:border-box;
+        width:246/@rem;
+        height:100%;
+        color:#fff;
+        font-size:24/@rem;
+        text-align:center;
+        padding-top:22/@rem;
+        
+    }
+    .xiang{
+        position:absolute;
+        left:0; bottom:0;
+        width:640/@rem;
+        height:580/@rem;
+        background:#fff;
+        display:none;
+        z-index:5;
+        .div_1{
+            position:relative;
+            width:100%;
+            height:270/@rem;
+            border-bottom:1px solid #999;
+            img{
+                width:230/@rem;
+                height:230/@rem;
+                position:absolute;
+                top:18/@rem; left:20/@rem;
+            }
+            .name{
+                position:absolute;
+                top:32/@rem; left:284/@rem;
+                color:#000;
+                font-size:30/@rem;
+                line-height:46/@rem;
+                width:286/@rem;
+                text-align:left;
+            }
+            .price{
+                position:absolute;
+                top:140/@rem; left:284/@rem;
+                color:rgba(255,0,0,0.9);
+                font-size:32/@rem;
+            }
+            .close{
+                display:inline-block;
+                width:90/@rem;
+                height:94/@rem;
+                background:url(../img/xiangqing/09.png) no-repeat;
+                background-size:90/@rem  94/@rem;
+                position:absolute;
+                right:0; top:0; 
+            }
+        }
+        .div_2{
+            width:100%;
+            height:216/@rem;
+            h2{
+                width:100%;
+                height:86/@rem;
+                line-height:86/@rem;
+                color:#444;
+                font-weight:normal;
+                font-size:28/@rem;
+                text-align:left;
+                padding-left:30/@rem;
+                box-sizing:border-box;
+            }
+            div{
+                width:100%;
+                height:130/@rem;
+                color:#444;
+                text-align:left;
+                padding-left:30/@rem;
+                box-sizing:border-box;
+                span{
+                    float:left;
+                    display:inline-block;
+                    font-size:40/@rem;
+                    width:140/@rem;
+                    height:72/@rem;
+                    line-height:70/@rem;
+                    text-align:center;
+                    border-top:1px solid #999;
+                    border-bottom:1px solid #999;
+                }
+                 em{
+                    float:left;
+                    display:inline-block;
+                    width:72/@rem;
+                    height:72/@rem;
+                    line-height:60/@rem;
+                    border:1px solid #999;
+                    font-style:normal;
+                    font-size:60/@rem;
+                    text-align:center;
+                    &:first-of-type{
+                        border-radius:10/@rem 0 0 10/@rem;
+                    }
+                    &:last-of-type{
+                        border-radius:0 10/@rem 10/@rem 0;
+                    }
+                }        
+            }
+           
+        }
+        .list{
+            width:100%;
+            height:92/@rem;
+            li{
+                width:50%;
+                height:100%;
+                line-height:92/@rem;
+                
+            }
+            a,span{
+                display:inline-block;
+                width:100%;
+                height:100%;
+                color:#fff;
+            }
+            .cart{
+                background:#f05927;
+            }
+            .buy{
+                background:#fe3939;
+            }
+        }
+    }
+    .dan{
+        background:rgba(255,0,0,0.5);
+        
+    }
+    .tuan{
+        background:#fe3939;
+        .list li{
+            width:100%;
+            background:#fe3939;
+        }
+       
+    }
+}
